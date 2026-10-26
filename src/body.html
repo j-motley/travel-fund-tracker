@@ -1,0 +1,360 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></symbol>
+    <symbol id="i-captain" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="31" fill="var(--primary-soft)"/>
+      <path d="M14 58c3-10 10-14 18-14s15 4 18 14" fill="var(--primary)"/>
+      <path d="M27 44l5 6 5-6" fill="var(--surface)"/>
+      <circle cx="32" cy="32" r="12" fill="#f2c9a5"/>
+      <circle cx="27.5" cy="32" r="1.6" fill="#2a1b12"/><circle cx="36.5" cy="32" r="1.6" fill="#2a1b12"/>
+      <path d="M27.5 37c2.6 2.2 6.4 2.2 9 0" stroke="#2a1b12" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M17 24c2-8 9-12 15-12s13 4 15 12z" fill="#132a3c"/>
+      <rect x="15" y="23" width="34" height="5" rx="2.5" fill="#0b1a26"/>
+      <path d="M26 18.5h12M29 16.5l3 2 3-2" stroke="#f0b429" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 0 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 0 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 0 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 0 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6-6"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+    <symbol id="i-passport" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 16h6"/></symbol>
+    <symbol id="i-log" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h4M7 17h7"/></symbol>
+    <symbol id="i-cash" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 5l12 7-12 7z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></symbol>
+  </defs>
+</svg>
+
+<div class="airmail" aria-hidden="true"></div>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><svg><use href="#i-plane"/></svg></div>
+      <h1>Loan &amp; Travel Fund Planner<small>Will the travel fund last until the loan is paid off?</small></h1>
+    </div>
+    <div class="head-actions">
+      <button id="guideBtn" class="guide-btn" aria-label="Take the guided tour" title="Take the guided tour"><svg><use href="#i-captain"/></svg><span class="q" aria-hidden="true">?</span></button>
+      <button id="themeBtn" class="icon" aria-pressed="false"></button>
+      <button id="adminBtn" class="icon" aria-haspopup="true" aria-expanded="false" aria-controls="adminMenu" aria-label="Admin menu" title="Export and admin"><svg class="i"><use href="#i-gear"/></svg></button>
+      <div class="guide-hint" id="guideHint" hidden>Welcome aboard. I'm your captain. Want a two-minute tour of the controls?<br><button id="hintGo" class="go">Show me around</button> <button id="hintNo" class="quiet" style="color:inherit;border-color:transparent">No thanks</button></div>
+      <div class="menu" id="adminMenu" role="dialog" aria-label="Admin menu" hidden>
+        <h3>Export data as CSV</h3>
+        <div class="checks" id="csvChecks"></div>
+        <div class="row"><button id="csvBtn" class="go">Download CSV files</button></div>
+        <p class="small">Several files download together as one .zip.</p>
+        <hr>
+        <h3>Export the plan</h3>
+        <div class="row"><button id="pdfBtn">Export PDF</button><button id="copyBtn">Copy summary</button></div>
+        <p class="small">Export PDF opens the print window. Choose "Save as PDF" as the printer.</p>
+        <hr>
+        <h3>Admin</h3>
+        <div class="row"><button id="resetBtn" class="danger">Start over</button><button id="clearActBtn" class="danger">Clear actuals</button></div>
+        <p class="small">Start over resets the plan, trips and changed years but keeps your actuals. Clear actuals removes every imported transaction, check-in and rule.</p>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="appbar">
+  <div class="wrap">
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" role="tab" id="tab-tracker" aria-controls="view-tracker" data-view="tracker"><svg class="i"><use href="#i-radar"/></svg><span><span class="long">Flight tracker</span><span class="short">Tracker</span></span></button>
+      <button class="tab" role="tab" id="tab-plan" aria-controls="view-plan" data-view="plan"><svg class="i"><use href="#i-sliders"/></svg><span><span class="long">Flight plan</span><span class="short">Plan</span></span></button>
+      <button class="tab" role="tab" id="tab-trips" aria-controls="view-trips" data-view="trips"><svg class="i"><use href="#i-passport"/></svg><span>Trips</span><span class="count" id="tripCount" hidden></span></button>
+      <button class="tab" role="tab" id="tab-log" aria-controls="view-log" data-view="log"><svg class="i"><use href="#i-log"/></svg><span><span class="long">Flight log</span><span class="short">Log</span></span></button>
+      <button class="tab" role="tab" id="tab-actuals" aria-controls="view-actuals" data-view="actuals"><svg class="i"><use href="#i-receipt"/></svg><span>Actuals</span><span class="count" id="waitCount" hidden></span></button>
+      <button class="tab" role="tab" id="tab-loan" aria-controls="view-loan" data-view="loan"><svg class="i"><use href="#i-cash"/></svg><span><span class="long">Loan schedule</span><span class="short">Loan</span></span></button>
+    </nav>
+    <div class="board" id="board" aria-live="polite">
+      <div class="cell hide-sm">Flight <b id="bFlight"></b></div>
+      <div class="cell hide-md">Departs <b id="bDep"></b></div>
+      <div class="cell hide-md">Arrives <b id="bArr"></b></div>
+      <div class="cell"><span class="hide-sm">Status</span> <span class="flaps" id="bFlaps"></span></div>
+      <div class="cell">Lowest fuel <b id="bLow"></b></div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- FLIGHT TRACKER -->
+  <section class="view" id="view-tracker" role="tabpanel" aria-labelledby="tab-tracker">
+    <div class="card tracker" id="trackerCard">
+      <div class="tracker-head">
+        <div><h2>Flight tracker</h2><p class="sub" style="margin:0">Your loan is the flight. The plane moves one step with every payment.</p></div>
+        <div class="tracker-tools"><span class="phase" id="phase"><span class="pulse"></span><span id="phaseText"></span></span>
+          <label class="follow" id="followWrap" hidden>Plane follows <select id="followSel"><option value="actual">your actual payments</option><option value="plan">the plan</option></select></label></div>
+      </div>
+      <div class="sky"><svg id="arc" viewBox="0 0 1000 250" role="img" aria-label="Loan progress shown as a flight"></svg></div>
+      <div class="ports">
+        <div class="port"><div class="code">OWE</div><div class="lbl">First payment</div><div class="when" id="portDep"></div></div>
+        <div class="port dest"><div class="code">FREE</div><div class="lbl">Debt-free</div><div class="when" id="portArr"></div></div>
+      </div>
+      <div class="flight-meta" id="flightMeta">
+        <div class="meta"><div class="lbl">Payments made</div><div class="v" id="mPaid"></div></div>
+        <div class="meta"><div class="lbl">Paid so far</div><div class="v" id="mPaidAmt"></div></div>
+        <div class="meta"><div class="lbl">Left to pay</div><div class="v" id="mLeft"></div></div>
+        <div class="meta"><div class="lbl">Fuel in the tank (travel fund)</div><div class="v" id="mFuel"></div><div class="gauge" id="mGauge" title="Gold mark is your reserve"><i></i><b></b></div></div>
+      </div>
+      <div class="scrubber">
+        <button id="playBtn" class="icon go" aria-label="Play the flight"><svg class="i"><use href="#i-play"/></svg></button>
+        <input type="range" id="trackRange" aria-label="Track a month">
+        <span class="when" id="trackWhen"></span>
+        <button id="todayBtn" class="quiet">Today</button>
+      </div>
+    </div>
+
+    <div class="pass" id="pass">
+      <div class="pass-main">
+        <div class="pass-top"><span class="lbl">Flight <b id="pFlight"></b></span><span class="lbl">Passenger <b>You</b></span><span class="lbl">Class <b>Debt-free bound</b></span></div>
+        <p id="verdict" class="verdict"></p>
+        <p id="verdictSub" class="verdict-sub"></p>
+      </div>
+      <div class="pass-stub">
+        <div class="kv">
+          <div><div class="lbl">Loan payment</div><div class="v" id="kPay"></div></div>
+          <div><div class="lbl">Total interest</div><div class="v" id="kInt"></div></div>
+          <div><div class="lbl">Fuel added during loan</div><div class="v" id="kDep"></div></div>
+          <div><div class="lbl">Fuel added after</div><div class="v" id="kDep2"></div></div>
+          <div><div class="lbl">Lowest fuel</div><div class="v" id="kLow"></div></div>
+          <div><div class="lbl" id="kEndLbl">Fuel at the end of the plan</div><div class="v" id="kEnd"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="fuelCard">
+      <div class="chart-head">
+        <h2 id="fuelTitle">Fuel over the plan</h2>
+        <span class="hint">Hover to read a month. Click the line to plan a trip. Drag a bar to change that year's budget.</span>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="chart-box" id="chartBox">
+        <svg id="chart" class="chart" role="img" aria-label="Travel fund balance by month, with yearly travel budgets"></svg>
+        <div class="readout" id="readout"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLIGHT PLAN -->
+  <section class="view" id="view-plan" role="tabpanel" aria-labelledby="tab-plan" hidden>
+    <div class="grid2">
+      <div class="card" id="settingsCard">
+        <h2>Flight plan</h2>
+        <p class="sub">These are the only numbers you set. Slide or type and everything else recalculates.</p>
+        <div class="group">The loan</div>
+        <div class="ctl" data-f="loanAmount"></div>
+        <div class="ctl" data-f="loanRate"></div>
+        <div class="ctl" data-f="termYears"></div>
+        <div class="ctl dual">
+          <label for="startMonth">First payment</label>
+          <div class="pair"><select id="startMonth" aria-label="First payment month"></select><input type="number" id="startYear" min="2024" max="2040" step="1" aria-label="First payment year"></div>
+        </div>
+        <div class="ctl" data-f="debts"></div>
+        <div class="group">Years to plan</div>
+        <div class="ctl" id="planCtl">
+          <label for="planYears">Plan length (years)</label>
+          <input type="number" id="planYears" min="1" max="25" step="1" inputmode="numeric">
+          <input type="range" id="planYears_r" min="1" max="25" step="1" aria-label="Years to plan">
+          <label class="chk inline" style="grid-column:1/-1;margin:2px 0 0"><input type="checkbox" id="planAuto"> Loan term plus 3 years</label>
+          <p class="tool-note" id="planNote" style="grid-column:1/-1;margin:0"></p>
+        </div>
+        <div class="group">Money in</div>
+        <div class="ctl" data-f="monthly"></div>
+        <div class="ctl" data-f="apy"></div>
+        <div class="group">Money out for travel</div>
+        <div class="ctl"><label for="firstTravelYear">First travel year</label><input type="number" id="firstTravelYear" min="2024" max="2045" step="1"></div>
+        <div class="ctl" data-f="firstYearSpend"></div>
+        <div class="ctl" data-f="defaultSpend"></div>
+        <div class="ctl" data-f="cushion"></div>
+      </div>
+      <div class="stack">
+        <div class="card" id="calcCard">
+          <h2>Calculated for you</h2>
+          <p class="sub">Worked out from your flight plan. Change a setting to move these.</p>
+          <div class="calc-list" id="calcList"></div>
+        </div>
+        <div class="card">
+          <h2>Preview</h2>
+          <p class="sub" id="miniSub">Fuel over the plan with these settings.</p>
+          <div class="mini-box"><svg class="mini" data-mini role="img" aria-label="Preview of the fund balance"></svg></div>
+        </div>
+        <div class="card" id="quickCard">
+          <h2>Quick moves</h2>
+          <p class="sub">Let the planner do the math.</p>
+          <div class="tools">
+            <button id="maxBtn" class="go">Find my max yearly budget</button>
+            <button id="pinBtn">Pin this plan to compare</button>
+            <button id="unpinBtn" class="quiet" hidden>Remove pinned plan</button>
+          </div>
+          <p class="tool-note">Find my max sets "Spend each year after that" to the most you can spend and still keep your reserve. A pinned plan shows as a dotted line on the charts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRIPS -->
+  <section class="view" id="view-trips" role="tabpanel" aria-labelledby="tab-trips" hidden>
+    <div class="grid2">
+      <div class="card" id="tripsCard">
+        <h2>Your passport</h2>
+        <p class="sub">Each trip gets a stamp. A trip comes out of that year's budget in the month you go, and the rest of the budget is spread across the year.</p>
+        <div class="passport" id="passport"></div>
+        <ul class="trips" id="trips"></ul>
+        <p class="trip-sum" id="tripSum"></p>
+        <button id="addTrip" style="margin-top:12px">Add a trip</button>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <h2>How the trips land</h2>
+          <p class="sub">Watch for the line dipping under your reserve.</p>
+          <div class="mini-box"><svg class="mini" data-mini role="img" aria-label="Fund balance with trips"></svg></div>
+        </div>
+        <div class="card">
+          <h2>Budget vs actual</h2>
+          <p class="sub">What each trip really cost, from the transactions you declared on the Actuals tab.</p>
+          <div class="trip-actuals" data-trip-actuals></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLIGHT LOG -->
+  <section class="view" id="view-log" role="tabpanel" aria-labelledby="tab-log" hidden>
+    <div class="card" id="logCard">
+      <h2>Flight log</h2>
+      <p class="sub">Year by year. Type in the Change column to set a different travel budget for a single year; clear it to go back to the default.</p>
+      <div class="table-scroll">
+        <table class="years">
+          <thead><tr><th>Year</th><th>Change</th><th>Budget</th><th>Trips</th><th>Spent</th><th class="act">Actual spent</th><th>Fuel added</th><th class="act">Actual added</th><th>Interest</th><th>Year-end</th><th>Lowest</th><th>Status</th></tr></thead>
+          <tbody id="yearRows"></tbody>
+          <tfoot id="yearFoot"></tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ACTUALS -->
+  <section class="view" id="view-actuals" role="tabpanel" aria-labelledby="tab-actuals" hidden>
+    <div class="card" id="actHead">
+      <div class="act-head">
+        <div><h2>Actuals</h2><p class="sub" style="margin:0">Bring in what really happened from your bank and card exports, then declare each transaction.</p></div>
+      </div>
+      <div class="seg" role="tablist" aria-label="Actuals sections">
+        <button role="tab" data-sec="overview">Overview</button>
+        <button role="tab" data-sec="import"><svg class="i"><use href="#i-upload"/></svg>Import</button>
+        <button role="tab" data-sec="customs">Customs<span class="count" id="custCount" hidden></span></button>
+        <button role="tab" data-sec="checkins">Balance check-ins</button>
+        <button role="tab" data-sec="setup">Categories and rules</button>
+      </div>
+    </div>
+
+    <div class="sec" data-sec="overview">
+      <div class="tiles" id="actTiles"></div>
+      <div class="grid2">
+        <div class="card"><h2>Where the travel money went</h2><p class="sub">Declared travel expenses by category. Hover a bar for the subcategories.</p><div id="catBars"></div></div>
+        <div class="card"><h2>Trips: budget vs actual</h2><p class="sub">Planned cost on the Trips tab against what you declared.</p><div class="trip-actuals" data-trip-actuals></div></div>
+      </div>
+    </div>
+
+    <div class="sec" data-sec="import" hidden>
+      <div class="grid2">
+        <div class="card" id="importCard">
+          <h2>Import a file</h2>
+          <p class="sub">Download transactions from your bank or card site and drop the file here. Works with CSV, TSV or TXT, Excel (.xlsx), OFX, QFX, QBO and QIF. Nothing leaves this device.</p>
+          <label class="drop" id="drop">
+            <input type="file" id="fileIn" accept=".csv,.tsv,.txt,.xlsx,.ofx,.qfx,.qbo,.qif,text/csv">
+            <svg class="i"><use href="#i-upload"/></svg>
+            <b>Drop a file here or choose one</b>
+            <span class="lbl">One file at a time. Re-importing the same file skips what you already have.</span>
+          </label>
+          <div id="mapper"></div>
+          <div id="importResult"></div>
+        </div>
+        <div class="stack">
+          <div class="card" id="manualCard">
+            <h2>Add one by hand</h2>
+            <p class="sub">For cash, or anything an export missed.</p>
+            <div class="manual" id="manualForm"></div>
+          </div>
+          <div class="card">
+            <h2>Import history</h2>
+            <p class="sub">Undo an import to remove everything it brought in.</p>
+            <div id="batches"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec" data-sec="customs" hidden>
+      <div class="card" id="customsCard">
+        <h2>Customs</h2>
+        <p class="sub">Declare each transaction. Best guesses are filled in for you; anything you change is marked as yours. Use "Always" to make a rule for similar transactions.</p>
+        <div class="cust-filters">
+          <div class="chips" id="custFilter"></div>
+          <input type="search" id="custSearch" placeholder="Search descriptions" aria-label="Search descriptions">
+        </div>
+        <div class="bulk" id="bulk" hidden></div>
+        <div class="cust-list" id="custList"></div>
+        <div id="custMore"></div>
+      </div>
+    </div>
+
+    <div class="sec" data-sec="checkins" hidden>
+      <div class="card" id="checkCard">
+        <h2>Balance check-ins</h2>
+        <p class="sub">Once a month, copy the ending balances from your statements. The check-ins show how you're tracking against the plan, and the latest one can restart the forecast from your real balance.</p>
+        <div class="ci-form" id="ciForm"></div>
+        <label class="chk inline"><input type="checkbox" id="useAnchor"> Restart the forecast from my latest travel fund check-in</label>
+        <div class="table-scroll"><table class="years" id="ciTable"><thead><tr><th>Month</th><th>Fund balance</th><th>Plan said</th><th>Difference</th><th>From transactions</th><th>Loan balance</th><th>Plan said</th><th></th></tr></thead><tbody id="ciRows"></tbody></table></div>
+      </div>
+    </div>
+
+    <div class="sec" data-sec="setup" hidden>
+      <div class="grid2">
+        <div class="card"><h2>Travel categories</h2><p class="sub">Rename, add or remove categories and subcategories. Removing one leaves its transactions uncategorized.</p><div id="catEditor"></div></div>
+        <div class="card"><h2>Rules</h2><p class="sub">Rules declare new imports automatically. Make one from any transaction in Customs with "Always".</p><div id="ruleList"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOAN -->
+  <section class="view" id="view-loan" role="tabpanel" aria-labelledby="tab-loan" hidden>
+    <div class="grid2">
+      <div class="card">
+        <h2>Loan schedule</h2>
+        <p class="sub" id="loanSub"></p>
+        <div class="loan-scroll">
+          <table class="years">
+            <thead><tr><th>#</th><th>Month</th><th>Payment</th><th>Interest</th><th>Principal</th><th>Balance</th></tr></thead>
+            <tbody id="loanRows"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <h2 id="splitTitle">Where the loan goes</h2>
+          <p class="sub">Change the amounts on the Flight plan tab.</p>
+          <div class="mini-box"><svg class="mini" id="splitChart" role="img" aria-label="Loan split between debt payoff and the travel fund"></svg></div>
+        </div>
+        <div class="card">
+          <h2>Each year of the loan</h2>
+          <div class="table-scroll">
+            <table class="years">
+              <thead><tr><th>Year</th><th>Paid</th><th>Interest</th><th>Principal</th><th>Balance left</th></tr></thead>
+              <tbody id="loanYears"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="wrap"><footer>Loan &amp; Travel Fund Planner, v0.6.0. Runs locally — your data never leaves this device.</footer></div>
+<div class="toast" id="toast" role="status"></div>
+<div id="report" data-theme="light"></div>

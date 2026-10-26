@@ -1,0 +1,8 @@
+# Source archive (kept for reference)
+*.zip
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
